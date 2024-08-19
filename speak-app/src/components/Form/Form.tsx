@@ -2,10 +2,10 @@ import Button from '../Button/Button';
 import Input from '../input/Input';
 import style from './form.module.css'
 
-export default function MyForm() {
+export default function Form() {
 
     return (
-      <form className={style.myForm}>
+      <form className={style.Form}>
         <Input label={'Ваш логин:'} placeholder={'login'} type={'text'} name={'login'} />
         <Input label={'Действительная почта:'} placeholder={'email'} type={'email'} name={'email'}  />
         <Input label={'Ваш пароль:'} placeholder={'password'} type={'password'} name={'password'} />
